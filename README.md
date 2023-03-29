@@ -5,6 +5,10 @@
 npm i
 
 npm i rimraf
+
+cordova platform add android
+
+cordova run android
 ```
 
 # Cordova turorial source
