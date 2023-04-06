@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
+  "homepage": "./",
   "scripts": {
-    "start": "PORT=5000 react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp -rf ./build/ ./www/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,16 +17,13 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
     "firebase": "^9.6.10",
-    "react": "^17.0.1",
+    "react": "^18.1.0",
     "react-bootstrap": "^1.4.0",
     "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.0",
     "web-vitals": "^0.2.4"
   },
   "browserslist": {
@@ -38,6 +36,24 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-plugin-fcm-with-dependecy-updated": "^7.8.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-fcm-with-dependecy-updated": {
+        "ANDROID_DEFAULT_NOTIFICATION_ICON": "@mipmap/ic_launcher",
+        "ANDROID_FCM_VERSION": "21.0.0",
+        "ANDROID_FIREBASE_BOM_VERSION": "26.0.0",
+        "ANDROID_GOOGLE_SERVICES_VERSION": "4.3.4",
+        "ANDROID_GRADLE_TOOLS_VERSION": "4.1.0"
+      }
+    },
+    "platforms": [
+      "android"
     ]
   }
 }

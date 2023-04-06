@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "832668842527",
+    "project_id": "mintyart-666fe",
+    "storage_bucket": "mintyart-666fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832668842527:android:eb12c60388c2975c51b32a",
+        "android_client_info": {
+          "package_name": "com.minty.art"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832668842527-m5ohou387nu6p087njmf0vc5ds92bfo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhw5psUBWEE2_ZPtw7xEwS5VwYSpdR1qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832668842527-m5ohou387nu6p087njmf0vc5ds92bfo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832668842527:android:ddc3be0d02f30e0851b32a",
+        "android_client_info": {
+          "package_name": "io.cordova.hellocordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832668842527-m5ohou387nu6p087njmf0vc5ds92bfo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhw5psUBWEE2_ZPtw7xEwS5VwYSpdR1qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832668842527-m5ohou387nu6p087njmf0vc5ds92bfo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
